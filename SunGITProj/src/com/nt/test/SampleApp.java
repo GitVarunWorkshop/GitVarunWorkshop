@@ -12,6 +12,8 @@ public class SampleApp {
 			System.out.println(i);
 		}
 		  System.out.println("add=="+SampleApp.sum(100,200));
+		  WishGenerator generator= new  WishGenerator();
+		  System.out.println("Msg::"+generator.generateWishMessage("raja"));
      //hi
 		//hello
 	}
